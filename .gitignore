@@ -1,0 +1,21 @@
+# --- Data: unpublished research data must NOT be committed ---
+data/*
+!data/README.md
+*.xlsx
+*.xls
+*.csv
+!docs/data_dictionary.csv
+
+# --- Generated outputs ---
+results/
+*.mat
+*.png
+*.asv
+*.m~
+slprj/
+
+# --- System / Python ---
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
